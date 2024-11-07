@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.nav-link {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+#inicio {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#inicio h1 {
+    color: #007bff;
+}
+
+#inicio p.lead {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#inicio p.text-justify {
+    text-align: justify;
+    color: #555;
+}
+
+#inicio ul.list-group li {
+    background-color: #f1f1f1;
+    border: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#inicio ul.list-group li strong {
+    font-weight: bold;
+}
+
+#inicio img {
+    max-height: 300px;
+    border-radius: 8px;
+}
+
+#consejos h2 {
+    color: #007bff;
+}
+
+#consejos .lead {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.card img {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #0056b3;
+}
+
+footer p {
+    margin: 0;
+}
